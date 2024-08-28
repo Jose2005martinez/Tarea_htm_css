@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.titulo-principal {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.imagen-principal {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.imagen-principal img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenido {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contenido h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.contenido p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tarjetas-contenedor {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-1 {
+    background-color: #cce7e8;
+}
+
+.tarjeta-2 {
+    background-color: #f9d3a1;
+}
+
+.tarjeta-3 {
+    background-color: #d9f7cf;
+}
+
+.tarjeta-4 {
+    background-color: #edeff2;
+}
+
+header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    color: coral;
+    font-size: 2em;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+  }
+  
+  a {
+    color: #fff;
+    background-color: #008CBA;
+    padding: 1em 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    display: inline-block;
+    margin-top: 1em;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  .whatsapp-icon {
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-left: 0.5em;
+  }
+
