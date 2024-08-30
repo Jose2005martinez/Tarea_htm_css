@@ -136,3 +136,22 @@ body {
     margin-left: 0.5em;
   }
 
+
+  .videos-tarjetas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem; /* Espacio entre videos */
+    padding: 1rem;
+}
+
+.videos-tarjetas article {
+    width: 100%; /* Ajusta el ancho del video al ancho del contenedor */
+    max-width: 640px; /* Ancho máximo para videos */
+}
+
+.videos-tarjetas iframe {
+    width: 100%;
+    height: auto; /* Mantiene la relación de aspecto del video */
+}
+
