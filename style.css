@@ -1,3 +1,39 @@
+/* Estilo para el contenedor de la navegación */
+.navegador {
+    background-color: #100ebc; /* Color de fondo del menú */
+    padding: 0.5rem; /* Espacio alrededor del contenido */
+    text-align: center; /* Centra el contenido del menú */
+}
+
+/* Estilo para la lista de navegación */
+.navegador ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+}
+
+/* Estilo para los elementos de la lista */
+.navegador li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 1rem; /* Espacio a la izquierda y a la derecha de cada ítem */
+    color: #fff; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente */
+}
+
+/* Estilo para los elementos de la lista en estado de hover */
+.navegador li:hover {
+    color: #f0f0f0; /* Color del texto al pasar el mouse */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+/* Estilo para los elementos de la lista en estado activo */
+.navegador li.active {
+    border-bottom: 2px solid #fff; /* Línea debajo del ítem activo */
+    padding-bottom: 0.5rem; /* Espacio adicional debajo del ítem activo */
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
